@@ -1,0 +1,34 @@
+name: 'Action build images summary update'
+description: 'Action to update summary check runs when building images'
+author: 'prefapp'
+
+inputs:
+  conclusion:
+    description: 'Check run conclusion'
+    required: true
+    default: 'success'
+  token:
+    description: 'GitHub token'
+    required: true
+    default: '${{ github.token}}'
+  summary_path:
+    description: 'Path to the summary file'
+    required: true
+    default: '/tmp/build_images_results.yaml'
+  check_run_name:
+    description: 'Check run name'
+    required: true
+  ref:
+    description: 'Branch, commit or tag name'
+    required: true
+  op:
+    description: 'Operation to perform'
+    required: true
+
+outputs:
+  last_summary:
+    description: 'Last summary'
+
+runs:
+  using: node24
+  main: dist/index.js
