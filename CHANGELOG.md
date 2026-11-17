@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/pre-jalvarezit/action-build-images-summary/compare/action-build-images-summary-v0.2.0...action-build-images-summary-v0.3.0) (2026-11-17)
+
+
+### Features
+
+* force release ([#15](https://github.com/pre-jalvarezit/action-build-images-summary/issues/15)) ([792c6ca](https://github.com/pre-jalvarezit/action-build-images-summary/commit/792c6cac26fd5e4941665fe9a91552d6974ed4a3))
+
 ## [0.2.0](https://github.com/pre-jalvarezit/action-build-images-summary/compare/action-build-images-summary-v0.1.0...action-build-images-summary-v0.2.0) (2026-11-17)
 
 
