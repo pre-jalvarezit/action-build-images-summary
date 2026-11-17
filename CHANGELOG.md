@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.2.0](https://github.com/pre-jalvarezit/action-build-images-summary/compare/action-build-images-summary-v0.1.0...action-build-images-summary-v0.2.0) (2026-11-17)
+
+
+### Features
+
+* mirror action-build-images-summary source from prefapp ([#1](https://github.com/pre-jalvarezit/action-build-images-summary/issues/1)) ([1ecafb0](https://github.com/pre-jalvarezit/action-build-images-summary/commit/1ecafb01b08d291c21ac27989ed8a953276dabd0))
+
+
+### Bug Fixes
+
+* update docs ([#3](https://github.com/pre-jalvarezit/action-build-images-summary/issues/3)) ([8c7643c](https://github.com/pre-jalvarezit/action-build-images-summary/commit/8c7643c6fc3f0acb9d42f8b43236358e6846560a))
+
 ## [1.2.1](https://github.com/prefapp/action-build-images-summary/compare/action-build-images-summary-v1.2.0...action-build-images-summary-v1.2.1) (2026-11-13)
 
 
