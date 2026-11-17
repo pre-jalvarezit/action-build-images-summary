@@ -52,6 +52,8 @@ jobs:
 
           path_released='${{ steps.release.outputs.paths_released }}'
 
+          AUTH=$(printf 'x-access-token:%s' "$GH_TOKEN" | base64 -w0)
+
           manifest=$(cat .release-please-manifest.json)
 
           echo $path_released | jq -cr '.[]' | while read -r release; do
