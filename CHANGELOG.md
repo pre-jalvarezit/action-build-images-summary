@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/pre-jalvarezit/action-build-images-summary/compare/action-build-images-summary-v0.3.0...action-build-images-summary-v0.4.0) (2026-11-17)
+
+
+### Features
+
+* remove unnecesary github token ([#17](https://github.com/pre-jalvarezit/action-build-images-summary/issues/17)) ([d17f008](https://github.com/pre-jalvarezit/action-build-images-summary/commit/d17f0083d3a171693f0c50cbe696dfed4ab261f7))
+
 ## [0.3.0](https://github.com/pre-jalvarezit/action-build-images-summary/compare/action-build-images-summary-v0.2.0...action-build-images-summary-v0.3.0) (2026-11-17)
 
 
