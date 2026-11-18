@@ -57,7 +57,7 @@ jobs:
         id: checkout
         uses: actions/checkout@v6
 
-      - uses: LouisBrunner/checks-action@v2.0.0
+      - uses: LouisBrunner/checks-action@v3.1.0
         name: Rewrite summary
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
